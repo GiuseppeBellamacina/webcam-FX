@@ -1,0 +1,14 @@
+[project]
+name = "webcam-features"
+version = "0.1.0"
+description = "Effetti webcam attivati dai gesti"
+requires-python = ">=3.12"
+dependencies = [
+    "mediapipe>=1.1.1",
+    "numpy>=2.5.4",
+    "pyvirtualcam>=0.15.0",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
